@@ -1,12 +1,12 @@
 ## What is this?
-Here is a repository with an example for importing existing ASP.Net users with their password to 0Auth. I made this repo for my team at Greenbyte/Powerfactors, but I'm on maternal leave and I have a crying 6 week old in my lap and I'm sleep deprived. So errors might be made heh :D
+Here is a repository with an example for importing existing ASP.Net users with their password to Auth0. I made this repo for my team at Greenbyte/Powerfactors, but I'm on maternity leave and I have a crying 6 week old in my lap and I'm sleep deprived. So errors might be made heh :D
 
 If something isn't working please let me know and I'll do my best to fix it. The postman collection is old, so use that as an inspiration but check their docs.
 
 I've added some comments in the code that explains how to create the custom password hash for importing ASP.NET users (regardless of version). 
 
 #### Quick summary:
-0Auth uses the PHC string format for defining the hashing details. The algorithm ASP.NET uses is PBKDF2 with HMAC-SHA1, with utf8 encoding.
+Auth0 uses the PHC string format for defining the hashing details. The algorithm ASP.NET uses is PBKDF2 with HMAC-SHA1, with utf8 encoding.
 
 So, in other words, for ASP.NET its:
 SHA1 with 1000 iterations, key length is 32 bytes (not 64 seen in many examples), and then salt and hash is added. According to the PHC spec the values are prefixed with $. 
