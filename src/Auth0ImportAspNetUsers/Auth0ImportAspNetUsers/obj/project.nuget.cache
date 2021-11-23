@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gFmzJMhJ1rTjMnk7b8wa1zFLlc9xrMFiPGViBToqCfQYZ7OxoNz0YpxzCAoZNtgKfXn4l5iZnwwha77ptN3iig==",
+  "success": true,
+  "projectFilePath": "C:\\repos\\Auth0ImportAspNetUsers\\src\\Auth0ImportAspNetUsers\\Auth0ImportAspNetUsers\\Auth0ImportAspNetUsers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\IrisClasson\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

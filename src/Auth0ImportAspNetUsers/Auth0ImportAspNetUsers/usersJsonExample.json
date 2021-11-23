@@ -1,0 +1,18 @@
+[
+  {
+    "email": "admin@admin.admin",
+    "email_verified": true,
+    "user_id": "1",
+    "user_name": "admin",
+    "app_metadata": {
+        "roles": ["admin"]
+    },
+    "custom_password_hash": {
+        "algorithm": "pbkdf2",
+      "hash": {
+        "value": "$pbkdf2-sha1$i=1000,l=32$Il2OAfYnj8JTYyDmZEMRlQ$yXpWUx4q8stARbGBgUHb/ScM2gCyrnHx7PCbtKN6Jik",
+        "encoding": "utf8"
+      }
+    }
+  }
+]
